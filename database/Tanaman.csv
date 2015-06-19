@@ -1,0 +1,7 @@
+"Column Name","Data Type","Nullable","Default","Primary Key"
+"IDTANAMAN","NUMBER","No","","1"
+"NAMATANAMAN","VARCHAR2(50)","Yes","",""
+"GAMBAR","VARCHAR2(100)","Yes","",""
+"MASAPANEN","NUMBER","Yes","",""
+"DESKRIPSI","VARCHAR2(1500)","Yes","",""
+"IDKOMODITI","NUMBER","Yes","",""

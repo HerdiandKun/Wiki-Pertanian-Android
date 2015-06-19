@@ -1,0 +1,4 @@
+"Column Name","Data Type","Nullable","Default","Primary Key"
+"USERNAME","VARCHAR2(50)","No","","1"
+"NAMA","VARCHAR2(100)","Yes","",""
+"PASSWORD","VARCHAR2(50)","Yes","",""

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="61dp"
+        android:text="@string/username"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="280px"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtnama"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:hint="username" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/txtnama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/username"
+        android:layout_marginTop="17dp"
+        android:text="@string/password"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="280px"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtnama"
+        android:layout_below="@+id/txtnama"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/password"
+        android:layout_marginTop="16dp"
+        android:onClick="loginOnClick"
+        android:text="Log In"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btndaftar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/login"
+        android:onClick="kedaftar"
+        android:text="Daftar Baru"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnkeluar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btndaftar"
+        android:layout_marginRight="14dp"
+        android:onClick="keluar"
+        android:text="Keluar"
+        android:textStyle="bold" />
+
+</RelativeLayout>

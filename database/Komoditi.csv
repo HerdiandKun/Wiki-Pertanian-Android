@@ -1,0 +1,3 @@
+"Column Name","Data Type","Nullable","Default","Primary Key"
+"IDKOMODITI","NUMBER","No","","1"
+"NAMAKOMODITI","VARCHAR2(50)","Yes","",""
